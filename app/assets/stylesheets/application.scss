@@ -1,2 +1,44 @@
 @import "bootstrap/scss/bootstrap";
 @import "/restaurants";
+
+body {
+  background-color: #E8E8E8;
+  padding-bottom: 40px;
+}
+
+nav {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  background-color: #FF8811;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.new-article {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.new-article:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.home {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.home:hover {
+  text-decoration: none;
+  color: black;
+}

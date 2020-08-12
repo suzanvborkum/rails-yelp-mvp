@@ -1,4 +1,24 @@
 ul {
   list-style-type: none;
-  margin: 40px;
+}
+
+.index-list-item a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.index-list-item a:hover {
+  color: #158497;
+  border-left: solid 3px #158497;
+}
+
+.review {
+  background-color: white;
+  border: solid 1px grey;
+  border-radius: 4px;
+  padding: 10px;
+  width: 400px;
+  margin-bottom: 20px;
 }

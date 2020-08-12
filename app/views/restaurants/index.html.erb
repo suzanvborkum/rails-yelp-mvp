@@ -1,9 +1,9 @@
 <div class="container">
-  <h1>Restaurants</h1>
+  <h1 class="pb-4">Restaurants</h1>
 
   <ul>
     <% @restaurants.each do |restaurant| %>
-      <li> <%= link_to restaurant.name, restaurant_path(restaurant) %> </li>
+      <li class='index-list-item'> <%= link_to restaurant.name, restaurant_path(restaurant) %> </li>
     <% end %>
   </ul>
 </div>
